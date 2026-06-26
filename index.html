@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaysan | Full-Stack Architect & Calisthenics Practitioner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!-- BACKGROUND EFFECTS -->
+    <div class="bg-glow"></div>
+    <div class="bg-glow-right"></div>
+    <div class="dots-pattern"></div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">KAY<span>SAN</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#why-me">Value</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#skills">Mastery</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact" class="nav-btn">Connect</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="about">
+        <div class="container hero-wrapper">
+            <div class="hero-content">
+                <div class="badge"><i class="fas fa-circle-check"></i> AVAILABLE FOR HIGH-IMPACT PROJECTS</div>
+                <h1 class="hero-title">Crafting <span class="gradient-text">Digital Masterpieces</span> Through Code & Discipline.</h1>
+                <p class="hero-subtitle">Senior Full-Stack Architect spesialis Android (Kotlin Native) & Laravel Backend. Mengintegrasikan logika rekayasa perangkat lunak yang tangguh dengan disiplin kekuatan fisik.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary-btn">Lihat Portofolio</a>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Kaysan,%20saya%20melihat%20portofolio%20Anda%20dan%20ingin%20berdiskusi%20mengenai%20proyek." target="_blank" class="btn secondary-btn"><i class="fab fa-whatsapp"></i> Chat WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-graphic">
+                <div class="glass-orb"></div>
+                <img src="assets/img/hero.png" alt="Kaysan Project Mockup" class="mockup-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- VALUE PROPOSITION / WHY ME -->
+    <section id="why-me" class="why-me">
+        <div class="container">
+            <div class="section-head center">
+                <h2 class="section-title">Mengapa Bekerja <span class="gradient-text">Dengan Saya?</span></h2>
+                <div class="line center-line"></div>
+                <p class="section-subtitle">Menyediakan solusi rekayasa software dengan fokus pada hasil bisnis nyata, performa tinggi, dan ketahanan sistem.</p>
+            </div>
+            <div class="value-grid">
+                <div class="value-card glass">
+                    <div class="value-icon"><i class="fas fa-mobile-screen-button"></i></div>
+                    <h3>Arsitektur Offline-First</h3>
+                    <p>Membangun aplikasi Android dengan Kotlin Native yang tetap berfungsi lancar tanpa sinyal internet, menyinkronkan data secara otomatis saat online kembali.</p>
+                </div>
+                <div class="value-card glass">
+                    <div class="value-icon"><i class="fas fa-server"></i></div>
+                    <h3>Backend Berperforma Tinggi</h3>
+                    <p>API Laravel yang dioptimalkan dengan struktur database relasional yang efisien, menjamin waktu respons cepat dan keamanan data yang ketat.</p>
+                </div>
+                <div class="value-card glass">
+                    <div class="value-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Otomatisasi Bisnis Nyata</h3>
+                    <p>Mengubah alur kerja manual yang lambat menjadi sistem digital otomatis (seperti mesin estimasi harga instan), menghemat waktu dan meningkatkan penjualan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SHOWCASE -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-head">
+                <h2 class="section-title">Studi Kasus <span class="gradient-text">Unggulan</span></h2>
+                <div class="line"></div>
+            </div>
+
+            <!-- Project Filter Controls -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="android">Android App</button>
+                <button class="filter-btn" data-filter="web">Web System</button>
+            </div>
+
+            <div class="projects-list">
+                <!-- PROJECT 1: MOUNTRACK (Android & Laravel) -->
+                <div class="project-featured project-item" data-category="android">
+                    <div class="project-info">
+                        <span class="project-category">Full-Stack Android Ecosystem</span>
+                        <h3>Mountrack: Ekosistem Penyelamatan & Pendakian Gunung</h3>
+                        <p>Infrastruktur keselamatan pendakian modern dengan sinkronisasi peta offline-first, protokol SOS darurat otomatis, portal komunitas interaktif, edukasi keselamatan terintegrasi, dan panel kontrol manifest administrator real-time.</p>
+                        
+                        <ul class="tech-stack">
+                            <li><i class="fab fa-android"></i> Kotlin Jetpack Compose</li>
+                            <li><i class="fab fa-laravel"></i> Laravel REST API</li>
+                            <li><i class="fas fa-map"></i> Mapbox 3D Engine</li>
+                            <li><i class="fas fa-database"></i> MySQL & Cache</li>
+                        </ul>
+
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <span class="stat-val">Offline</span>
+                                <span class="stat-label">Map Tracking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-val">Real-time</span>
+                                <span class="stat-label">SOS Protocol</span>
+                            </div>
+                        </div>
+
+                        <button class="btn primary-btn view-case-btn" data-modal="modal-mountrack">Pelajari Studi Kasus <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-card">
+                            <img src="assets/img/hero.png" alt="Mountrack App Interface">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2: BENGKEL LAS WEBSITE (Web Automation) -->
+                <div class="project-featured project-item" data-category="web" style="margin-top: 40px;">
+                    <div class="project-info">
+                        <span class="project-category">Automated Web Platform</span>
+                        <h3>Kalkulator Estimasi Custom Bengkel Las</h3>
+                        <p>Mengubah proses penawaran manual menjadi otomatis. Calon klien mendapatkan estimasi harga kanopi/pagar secara langsung dan menjadwalkan survey lokasi terintegrasi WhatsApp.</p>
+                        
+                        <ul class="tech-stack">
+                            <li><i class="fab fa-js"></i> Vanilla JS (Price Algorithm)</li>
+                            <li><i class="fab fa-html5"></i> Semantic HTML5</li>
+                            <li><i class="fab fa-css3-alt"></i> Modern CSS Grid</li>
+                            <li><i class="fab fa-whatsapp"></i> WhatsApp API Integration</li>
+                        </ul>
+
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <span class="stat-val">-60%</span>
+                                <span class="stat-label">Inquiry Friction</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-val">Instant</span>
+                                <span class="stat-label">Survey Booking</span>
+                            </div>
+                        </div>
+
+                        <button class="btn primary-btn view-case-btn" data-modal="modal-bengkellas">Pelajari Studi Kasus <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-card">
+                            <!-- In absence of specific image, reuse or show styled container -->
+                            <div class="fallback-visual" style="background: linear-gradient(135deg, #1e293b, #0f172a); min-height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 12px;">
+                                <i class="fas fa-calculator" style="font-size: 80px; color: var(--primary); opacity: 0.3;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DUAL MASTERY SECTION -->
+    <section id="skills" class="mastery">
+        <div class="container">
+            <div class="section-head center">
+                <h2 class="section-title">The <span class="gradient-text">Dual Mastery</span></h2>
+                <div class="line center-line"></div>
+                <p class="section-subtitle">Keseimbangan disiplin antara logika pemrograman tingkat tinggi dan kekuatan ketahanan fisik.</p>
+            </div>
+
+            <div class="mastery-grid">
+                <!-- TECH SKILLS -->
+                <div class="mastery-card glass">
+                    <div class="mastery-header">
+                        <div class="mastery-icon"><i class="fas fa-code"></i></div>
+                        <div>
+                            <h3>Tech Precision</h3>
+                            <p class="mastery-subtitle">Software Engineering & Architecture</p>
+                        </div>
+                    </div>
+                    <ul class="mastery-list">
+                        <li>
+                            <div class="skill-info"><span>Kotlin / Jetpack Compose (Android)</span> <span class="skill-percentage">90%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Laravel / PHP Backend API</span> <span class="skill-percentage">92%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="92%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Database Architecture & Mysql optimization</span> <span class="skill-percentage">85%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>RESTful API Integration & Security</span> <span class="skill-percentage">95%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CALISTHENICS SKILLS -->
+                <div class="mastery-card glass accent-card">
+                    <div class="mastery-header">
+                        <div class="mastery-icon"><i class="fas fa-user-ninja"></i></div>
+                        <div>
+                            <h3>Calisthenics Discipline</h3>
+                            <p class="mastery-subtitle">Bodyweight Mastery & Absolute Strength</p>
+                        </div>
+                    </div>
+                    <ul class="mastery-list">
+                        <li>
+                            <div class="skill-info"><span>Static Holds (Planche / Front Lever Progression)</span> <span class="skill-percentage">80%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Weighted Pull-ups & Dips (Power Output)</span> <span class="skill-percentage">90%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Handstand Dynamics & Shoulder Stability</span> <span class="skill-percentage">85%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Explosive Muscle-ups & Rings Control</span> <span class="skill-percentage">88%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="88%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="cinematic-quote">
+                "Kode yang tangguh dilahirkan dari pikiran yang fokus, dan pikiran yang fokus dijaga oleh tubuh yang disiplin."
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-head center">
+                <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+                <div class="line center-line"></div>
+                <p class="section-subtitle">Jawaban atas pertanyaan yang sering diajukan calon klien mengenai alur kerja dan kompetensi teknis.</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Bagaimana alur kerja proyek bersama Anda?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Alur kerja saya terbagi menjadi 4 fase penting:
+                           1. <strong>Analisis & Konsultasi:</strong> Memahami masalah bisnis Anda dan merumuskan solusi teknis yang tepat.
+                           2. <strong>Desain Sistem & Prototyping:</strong> Merancang skema database, alur pengguna, dan struktur API.
+                           3. <strong>Development & QA:</strong> Pengodean intensif dengan testing berkala untuk memastikan zero-bug.
+                           4. <strong>Deployment & Handover:</strong> Mengunggah sistem ke server production/Play Store serta mendokumentasikan penggunaannya.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Apakah Anda menerima proyek kontrak/ retainer jangka panjang?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ya, tentu. Saya melayani pengerjaan berbasis per proyek (fixed price) maupun kontrak retainer bulanan. Opsi retainer sangat cocok jika aplikasi Anda memerlukan penambahan fitur berkala, maintenance server, dan pemantauan bug secara aktif.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Bagaimana dengan penanganan aplikasi offline-first?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Saya menggunakan caching lokal (seperti SQLite/Room Database di Android) untuk menyimpan state aplikasi saat tidak ada sinyal. Saat koneksi terdeteksi kembali, aplikasi akan secara aman menyinkronkan data lokal ke database server pusat melalui API Laravel yang dirancang dengan metode rekonsiliasi data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT / CTA SECTION -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-box glass">
+                <h2>Mari Bangun Sesuatu Yang <span class="gradient-text">Luar Biasa</span>.</h2>
+                <p>Saya selalu tertarik dengan proyek rekayasa software berskala tinggi atau otomatisasi bisnis yang menantang.</p>
+                
+                <div class="contact-wrapper">
+                    <!-- CONTACT FORM -->
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" required placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Alamat Email</label>
+                            <input type="email" id="email" required placeholder="name@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan / Rencana Proyek</label>
+                            <textarea id="message" rows="5" required placeholder="Deskripsikan kebutuhan proyek Anda secara detail..."></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn btn-full">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </form>
+
+                    <div class="contact-divider"><span>ATAU</span></div>
+
+                    <!-- DIRECT SOCIALS -->
+                    <div class="direct-contact">
+                        <h3>Hubungi Langsung</h3>
+                        <a href="https://wa.me/6281234567890?text=Halo%20Kaysan,%20saya%20melihat%20portofolio%20Anda%20dan%20ingin%20berdiskusi%20mengenai%20proyek." target="_blank" class="direct-btn wa-btn">
+                            <i class="fab fa-whatsapp"></i> Chat WhatsApp Instan
+                        </a>
+                        <a href="mailto:kaysan@example.com" class="direct-btn email-btn">
+                            <i class="fas fa-envelope"></i> Kirim Email Langsung
+                        </a>
+                        <div class="social-icons-row">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Kaysan Portfolio. Crafted with Precision, Grit, and Strength.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL PORTFOLIO DETAIL: MOUNTRACK -->
+    <div id="modal-mountrack" class="modal-overlay">
+        <div class="modal-content glass">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <span class="project-category">Studi Kasus Terperinci</span>
+                <h2>Mountrack: Keselamatan & Komunitas Pendaki</h2>
+            </div>
+            <div class="modal-body">
+                <h3>Tantangan (The Challenge)</h3>
+                <p>Pendakian gunung seringkali terkendala oleh minimnya sinyal komunikasi di area terpencil. Hal ini membahayakan keselamatan pendaki saat terjadi badai atau cedera, karena mereka kesulitan mengirimkan koordinat SOS ke basecamp.</p>
+
+                <h3>Solusi Rekayasa (The Solution)</h3>
+                <p>Saya merancang ekosistem terpadu menggunakan Android Jetpack Compose dan Laravel API. Fitur unggulannya meliputi:</p>
+                <ul>
+                    <li><strong>Offline Map Caching:</strong> Pendaki dapat mengunduh peta topografi 3D area gunung sebelum mendaki. Sistem tetap merekam jalur koordinat GPS pengguna secara lokal.</li>
+                    <li><strong>Protokol SOS Terenkripsi:</strong> Mengirimkan kode SOS beserta koordinat terakhir pendaki ke pos pemantau utama menggunakan bandwidth jaringan minimum (SMS/packet radio gateway integration).</li>
+                    <li><strong>Halaman Edukasi Interaktif (Android Screen):</strong> Layar informasi edukasi khusus pendakian untuk memberikan panduan keselamatan, kelangsungan hidup (*survival*), dan info rinci jalur langsung pada aplikasi seluler.</li>
+                    <li><strong>User Portal & Community Hub (Laravel Web):</strong> Halaman komunitas interaktif berbasis web untuk mendiskusikan cuaca gunung, berbagi cerita perjalanan, dan update status jalur real-time.</li>
+                    <li><strong>Manajemen Manifes & Check-in Pendaki (Admin Web Panel):</strong> Dasbor terpusat untuk memvalidasi proses check-in/check-out pendaki secara digital, memantau status keselamatan pendaki yang aktif di gunung, dan meminimalkan risiko kecelakaan pendakian.</li>
+                </ul>
+
+                <h3>Arsitektur & Stack Teknologi</h3>
+                <p>Kotlin Native menjamin performa rendering UI di perangkat seluler dengan konsumsi daya baterai yang efisien. Di sisi server, Laravel API menangani sinkronisasi data ribuan pendaki secara simultan dengan database MySQL yang dioptimalkan kuerinya.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL PORTFOLIO DETAIL: BENGKEL LAS -->
+    <div id="modal-bengkellas" class="modal-overlay">
+        <div class="modal-content glass">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <span class="project-category">Studi Kasus Terperinci</span>
+                <h2>Kalkulator Estimasi Custom Bengkel Las</h2>
+            </div>
+            <div class="modal-body">
+                <h3>Tantangan (The Challenge)</h3>
+                <p>Sebelumnya, pemilik bengkel las (las kanopi/pagar) harus melayani konsultasi harga secara manual untuk setiap calon pelanggan. Calon pelanggan harus menunggu berjam-jam untuk mendapatkan estimasi kasar harga, yang berujung pada tingginya angka *drop-off* (batal membeli).</p>
+
+                <h3>Solusi Rekayasa (The Solution)</h3>
+                <p>Membangun platform penawaran harga instan interaktif dengan algoritma perhitungan otomatis berbasis dimensi (panjang & lebar) dan opsi jenis bahan:</p>
+                <ul>
+                    <li><strong>Algoritma Estimasi Akurat:</strong> Menghitung biaya bahan baku utama, ongkos las, dan margin keuntungan secara otomatis sesuai input ukuran dari klien.</li>
+                    <li><strong>Sistem Hubung WhatsApp CRM:</strong> Begitu klien mendapatkan estimasi harga kasar, data tersebut diformat menjadi pesan terstruktur dan dikirim langsung ke WhatsApp admin bersama tombol pemesanan survey lokasi.</li>
+                </ul>
+
+                <h3>Arsitektur & Dampak Bisnis</h3>
+                <p>Menggunakan Vanilla JS murni untuk responsivitas algoritma instan tanpa lag. Hasilnya, waktu tanya jawab customer service berkurang hingga 60%, dan kualitas leads yang masuk meningkat tajam karena pelanggan yang memesan survei sudah menyetujui kisaran harga awal.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
